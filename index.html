@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web personal de [Tu Nombre], incluyendo biografía, habilidades, proyectos, artículos, libros y contacto.">
+    <title>WebSite-Luque</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0;
+}
+
+/* Estilo del menú de navegación */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Secciones con colores distintivos */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+#inicio {
+    
+    background-image: url('fonod.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000000; /* Ajusta el color del texto si es necesario */
+}
+#habilidades {
+    background-color: #e74c3c; /* Rojo */
+    display: grid; /* Usar grid para organizar los elementos */
+    grid-template-columns: 1fr auto; /* La primera columna ocupa el resto del espacio, la segunda es auto */
+    align-items: :center; /* Centrar verticalmente los elementos */
+    margin: 20px 0; /* Espaciado superior e inferior */
+    padding-right: 20px;
+}
+#proyectos {
+    background-color: #2ecc71; /* Verde */
+}
+
+#articulos {
+    background-color: #f1c40f; /* Amarillo */
+    color: #333;
+}
+
+#libros {
+    background-color: #9b59b6; /* Morado */
+}
+
+#bibliografia {
+    background-color: #34495e; /* Azul oscuro */
+}
+
+#contacto {
+    background-image: url('fondos-web.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #000704; /* Ajusta el color del texto si es necesario */
+}
+
+/* Estilos de títulos y textos */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p, ul {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 1.1em;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Estilo para proyectos y artículos */
+.proyecto, .articulo, .libro {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el formulario de contacto */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#libros">Libros</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio" class="section">
+        <h1>Personal Website LUQUE</h1>
+        <p>Hola, soy Baylón Luque Fuentes, un apasionado de las Finanzas y los Negocios Internacionales. Aquí podrás conocer más sobre mis habilidades, proyectos, artículos publicados y libros. ¡Gracias por visitar mi página!</p>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="habilidades" class="section">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Comunicación verbal y escrita: Capacidad para expresar ideas de manera clara y efectiva, ya sea en informes, correos electrónicos o presentaciones.</li>
+            <li>Gestión de proyectos: Planificar, ejecutar y supervisar proyectos de manera eficiente, garantizando la consecución de las metas.</li>
+            <li>Gestión de proyectos</li>
+            <li>Investigación académica</li>
+            <li>Manejo de herramientas de gestión: Uso de herramientas como Microsoft Office (Excel, Word, PowerPoint), y software especializado (ERP, SAP).</li>
+        </ul>
+        <iframe width="640" height="360" src="https://youtu.be/ovyPw-igcuI?si=0Yx1-KnektfvgGPE" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1: Desarrollo de un Plan de Marketing para una Nueva Tienda de Ropa</h3>
+            <p>Descripción: El objetivo de este proyecto es diseñar un plan de marketing integral para el lanzamiento de una nueva tienda de ropa llamada "Moda Eco". Este proyecto busca aumentar la visibilidad de la marca y atraer a clientes potenciales a través de estrategias de marketing innovadoras y sostenibles.</p>
+        </div>
+        <div class="proyecto">
+            <h3>Proyecto 2: Implementación de un Programa de Capacitación y Desarrollo para Empleados</h3>
+            <p>Descripción: El objetivo de este proyecto es diseñar e implementar un programa de capacitación y desarrollo que mejore las habilidades y competencias de los empleados en una empresa de tecnología llamada "Innovatech". Este programa busca fomentar el crecimiento profesional y personal de los empleados, aumentando así su satisfacción y retención.</p>
+        </div>
+    </section>
+
+    <!-- Sección Artículos -->
+    <section id="articulos" class="section">
+        <h2>Artículos</h2>
+        <div class="articulo">
+            <h3>Artículo 1: "La Importancia de la Sostenibilidad en los Negocios Modernos"</h3>
+            <p>Publicado en: Harvard Business Review</p>
+            <a href="https://hbr.org/2021/04/the-importance-of-sustainability-in-modern-business">Leer artículo</a>
+        </div>
+        <div class="articulo">
+            <h3>Artículo 2: "Why Sustainability is a Business Imperative"</h3>
+            <p>Publicado en: McKinsey & Company</p>
+            <a href="https://www.weforum.org/agenda/2022/06/why-sustainability-is-crucial-for-corporate-strategy/">Leer artículo</a>
+        </div>
+    </section>
+
+    <!-- Sección Libros -->
+    <section id="libros" class="section">
+        <h2>Libros</h2>
+        <div class="libro">
+            <h3>Libro 1: [Título del Libro]</h3>
+            <p>Publicado en: [Año de publicación]</p>
+            <a href="#">Más información</a>
+        </div>
+        <div class="libro">
+            <h3>Libro 2: [Título del Libro]</h3>
+            <p>Publicado en: [Año de publicación]</p>
+            <a href="#">Más información</a>
+        </div>
+    </section>
+
+    <!-- Sección Bibliografía -->
+    <section id="bibliografia" class="section">
+        <h2>Bibliografía</h2>
+        <ul>
+            <li>[Referencia 1]</li>
+            <li>[Referencia 2]</li>
+            <li>[Referencia 3]</li>
+            <!-- Añade tantas referencias como necesites -->
+        </ul>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Si deseas ponerte en contacto conmigo, rellena el siguiente formulario:</p>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="https://www.facebook.com/profile.php?id=100036712862031&mibextid=LQQJ4d">
+            <img src="face.png" alt="facebook" width="30" height="30">
+        </a>
+        <p>&copy; 2024 [baylon.luque]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
